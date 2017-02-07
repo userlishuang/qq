@@ -17,7 +17,7 @@ $(function() {
         getSearchData: function() {
             var that = this;
             $.ajax({
-                url: '../json/search.json',
+                url: './json/search.json',
                 type: 'get',
                 data: {},
                 success: function(res) {
@@ -120,7 +120,7 @@ $(function() {
         getSlideData: function() {
             var that = this;
             $.ajax({
-                url: '../json/slide.json',
+                url: './json/slide.json',
                 type: 'get',
                 data: {},
                 success: function(res) {
@@ -200,7 +200,7 @@ $(function() {
         getIndexData:function(){
         	var that = this;
         	$.ajax({
-        		url:'../json/index.json',
+        		url:'./json/index.json',
         		type:'get',
         		data:{},
         		success:function(res){
