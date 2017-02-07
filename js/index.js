@@ -302,7 +302,7 @@ $(function() {
 				MVData:that.data.mvData[type]
 			});
 			$('#MVList').html(MVStr);
-			$('.MV-nav').on('click','li',function(){
+			$('.nav-MV').on('click','li',function(){
 				MVType = $(this).data('type');
 	        	MVhtml = $('#MV-list').html();
 				MVfn = _.template(MVhtml);
